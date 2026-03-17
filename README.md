@@ -1,4 +1,23 @@
 # Predictive-Analytics-Lab-Exam-2.
+The following steps were performed:
+
+* Checked for missing values and handled them appropriately
+* Analyzed statistical summary of the dataset
+* Visualized feature relationships using:
+
+  * Correlation heatmap
+  * Scatter plots
+* Observed class distribution
+
+* Removed rows with missing target values
+* Converted categorical target variable into numerical format
+* Split data into training and testing sets (80:20 ratio)
+* Applied feature scaling for better model performance
+
+* model used
+  *Decision Tree Classifier*
+* The model learns decision rules based on feature values to classify data points
+  
 The Decision Tree Classifier achieved an accuracy of 93.5%, indicating excellent overall performance on the test dataset.
 <img width="650" height="368" alt="image" src="https://github.com/user-attachments/assets/85c568cf-af81-4883-a766-677d45832308" />
 True Negatives (TN): 147 → Correctly predicted 'No'
